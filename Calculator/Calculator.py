@@ -18,7 +18,7 @@ class Calculator:
         self.window.geometry("375x667")
         self.window.resizable(0, 0)
         self.window.title("Calculator")
-        self.window.iconbitmap(r"E:\Prince\PYTHON GUI\Python GUI Projects\1.ico")
+        self.window.iconbitmap(r"1.ico") #Add a file path of 1.ico file in your system
         self.total_expression = ""
         self.current_expression = ""
         self.display_frame = self.create_display_frame()
