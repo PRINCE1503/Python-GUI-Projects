@@ -66,7 +66,6 @@ def about():
 if __name__ == '__main__':
     root = Tk()
     root.title("Untitled - Notepad")
-    # root.wm_iconbitmap("1.ico")
     root.geometry("644x788")
 
     TextArea = Text(root, font="lucida 13")
